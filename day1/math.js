@@ -1,8 +1,8 @@
-function add(a, b) {
+function Add(a, b) {
     return a + b;
 }
 
-function sub(a, b) {
+function Sub(a, b) {
     return a - b;
 }
 
@@ -10,6 +10,6 @@ function sub(a, b) {
 // module.exports = sub
 
 module.exports = {
-    add,
-    sub
+    Add,
+    SubFunc: Sub
 }

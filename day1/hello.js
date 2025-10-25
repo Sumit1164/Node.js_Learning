@@ -5,4 +5,4 @@ console.log("Hello, World!");
 
 
 
-console.log("The sum of two numbers is : ", maths.add(7, 8) + " and " + maths.sub(15, 8));
+console.log("The sum of two numbers is: ", maths.Add(7, 8) + "\t and the sub of two numbers is: " + maths.SubFunc(15, 8));
