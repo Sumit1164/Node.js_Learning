@@ -1,6 +1,45 @@
+const { error } = require("console")
 const fs = require("fs")
 
 // sync -> Blocking Code, async -> Non-Blocking Code
+
+
+// write
+
+// fs.writeFileSync("./test.txt", "I'm overwrite in test.txt file")
+
+// fs.writeFile("./text.txt", "I'm going to become a backend developer", (err) => {
+//     console.log(err)
+// })
+
+
+// read
+
+// const wat = fs.readFileSync("./text.txt", "utf-8")
+// console.log(wat)
+
+
+// fs.readFile("./text.txt", "utf-8", (error, response) => {
+//     if (error) {
+//         console.log(error)
+//     } else {
+//         console.log(response)
+//     }
+// })
+
+
+
+// update
+
+
+
+
+
+
+
+
+
+
 
 
 // *Read
@@ -35,7 +74,7 @@ const fs = require("fs")
 //     if (err) {
 //         console.log(err)
 //     } else {
-//         console.log(res)
+//         console.log(res)    
 //     }
 // })
 
