@@ -1,6 +1,9 @@
 const { error } = require("console")
 const fs = require("fs")
 
+// const os = require("os")
+// console.log(os.cpus().length)  // 16 workers -> thread 
+
 // sync -> Blocking Code, async -> Non-Blocking Code
 
 
@@ -31,6 +34,15 @@ const fs = require("fs")
 
 // update
 
+// fs.appendFileSync("./test.txt", new Date().toDateString())
+
+// fs.appendFile("./text.txt", `This is sumit and logged at  ${new Date().toDateString()}\n`, (err, res) => {
+//     if(err) {
+//         console.log(err)
+//     } else {
+//         console.log(res)
+//     }
+// })
 
 
 
