@@ -2,7 +2,7 @@ const { error } = require("console")
 const fs = require("fs")
 
 // const os = require("os")
-// console.log(os.cpus().length)  // 16 workers -> thread 
+// console.log(os.cpus().length)  // 16 workers -> thread
 
 // sync -> Blocking Code, async -> Non-Blocking Code
 
@@ -44,6 +44,24 @@ const fs = require("fs")
 //     }
 // })
 
+
+// delete
+
+// try {
+//     fs.unlinkSync("example.txt");
+//     console.log("File deleted succesfully!")
+// } catch (error) {
+//     console.log("error deleting file ", error)
+// }
+
+
+// fs.unlink("examples.txt", (err) => {
+//     if (err) {
+//         console.log("Error deleting file", err)
+//     } else {
+//         console.log("File deleted succesfully! ")
+//     }
+// })
 
 
 
